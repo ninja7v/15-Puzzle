@@ -1,2 +1,3 @@
 # 15gameV2
-Just solve
+
+Here is the version 2 with separate files to make it clearer !
