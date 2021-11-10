@@ -333,7 +333,7 @@ goscore:=false;
 gorules:=false;
 
 clrscr;
-writeln('15GAME by Ariadni, Luc, William');
+writeln('15 Puzzle by Luc PREVOST');
 writeln('');
 writeln('Play           [ ]');
 writeln('Consult scores [ ]');
