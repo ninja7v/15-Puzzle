@@ -23,7 +23,7 @@ Everything happens in the terminal. Select the option you want using ↑ and ↓
 ![15game_rules](https://user-images.githubusercontent.com/52052772/141159856-64e6405d-14bb-4024-a3de-4eba21ff994a.png)
 
 ## 🎮 Game
-![snake_game](https://user-images.githubusercontent.com/52052772/141110565-0b0d42c4-b4dc-48de-970d-0288d5c5246d.png)
+![15game_play](https://user-images.githubusercontent.com/52052772/141160882-fa3dbb99-8579-40d3-af2a-234a10714e78.png)
 
 The first step is choosing the level. The higher it is, the larger the grid will be. Commands to play are ↑, ↓, →, ← arrrows to fill the void with a number next to it. If the score is among the top 3, the play will be asked to enter his pseudo to save it. Then the 3 choices are to play again by entering a level, come back to the menu, or exit the program.
 ## 🥇 Scores
