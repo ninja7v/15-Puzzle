@@ -1,3 +1,4 @@
+// 15 Game coded in Pascal by Luc PREVOST, 2017
 Program TaquinMain;
 
 uses taquinoutils, TaquinIHM, crt {color}, keyboard {read a key}, dos {time}, sysutils, taquincalc;
