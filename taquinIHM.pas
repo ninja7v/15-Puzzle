@@ -13,8 +13,6 @@ procedure menu(var gogame,goscore,gorules:boolean;var lvl:integer);
 
 Implementation
 
-
-
 procedure EnregistrementDesScores(lvl,nbrmove:integer; t2:longint); 
 
 var tabscore:score;
@@ -210,8 +208,6 @@ if not(FileExists('fichierscoresftngame')) then writeln('No score saved yet.')
 end;
 End;
 
-
-
 procedure chooselevel(var lvl:integer);
 
 var pos,c:integer;
@@ -253,8 +249,6 @@ if c=pos-4 then lvl:=1;
 if c=pos-3 then lvl:=0;
 end;
 
-
-
 procedure display(lvl:integer; g:tab);
 
 var col,lin:integer;
@@ -278,8 +272,6 @@ for lin:=1 to lvl do
 		end;
 	end;
 end;
-
-
 
 procedure move(lvl:integer; var col,lin:integer; var g:tab; var quit:boolean);
 
@@ -318,8 +310,6 @@ repeat
 		end
 until (i=72) or (i=75) or (i=77) or (i=80) or (i=32);
 end;
-
-
 
 procedure menu(var gogame,goscore,gorules:boolean;var lvl:integer);
 
