@@ -13,8 +13,6 @@ procedure game(lvl:integer; var nbrmove:integer; var t2:longint; var quit:boolea
 
 implementation
 
-
-
 procedure check(lvl:integer; g:tab; var victory:boolean);
 
 var col,lin:integer;
@@ -27,8 +25,6 @@ for col:=1 to lvl do
 		if g[col,lin]<>col+lvl*(lin-1) then victory:=false;
 end;
 
-
-
 procedure grid(lvl:integer; var g:tab);
 
 var col,lin:integer;
@@ -38,8 +34,6 @@ for col:=1 to lvl do
 	for lin:=1 to lvl do g[col,lin]:=col+lvl*(lin-1);
 g[lvl,lvl]:=0;
 end;
-
-
 
 procedure scramble(lvl:integer; var col,lin:integer;var g:tab);
 
@@ -68,8 +62,6 @@ for i:=1 to s do
 	end;
 end;
 
-
-
 procedure stopwatch(t:longint; var min,sec,cent:integer; var t2:longint);
 
 var t1:longint;
@@ -83,8 +75,6 @@ min:=t2 div 6000;
 sec:=(t2-min*6000) div 100;
 cent:=t2-min*6000-sec*100;
 end;
-
-
 
 procedure rules (var lvl:integer);
 
@@ -128,8 +118,6 @@ DoneKeyBoard();
 if (c=pos-4) then lvl:=1;
 if (c=pos-3) then lvl:=0;
 end;
-
-
 
 procedure game(lvl:integer; var nbrmove:integer; var t2:longint; var quit:boolean);
 
