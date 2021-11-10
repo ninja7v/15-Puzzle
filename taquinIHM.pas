@@ -21,9 +21,9 @@ var tabscore:score;
 	classement:file of score;
 
 begin
-if not(FileExists('fichierscoresftngame')) then
+if not(FileExists('scores_15puzzle.txt')) then
 	Begin {creation of file}
-	assign(classement, 'fichierscoresftngame');
+	assign(classement, 'scores_15puzzle.txt');
 	rewrite(classement);
 	for i:=1 to MAXSS do {initiation of file}
 		for j:=minlvl to maxlvl do
@@ -37,7 +37,7 @@ if not(FileExists('fichierscoresftngame')) then
 	close(classement);
 	end;
 
-assign(classement, 'fichierscoresftngame');
+assign(classement, 'scores_15puzzle.txt');
 reset(classement);
 read(classement, tabscore);
 
@@ -95,10 +95,10 @@ var classement:file of score;
 Begin
 clrscr;
 
-if not(FileExists('fichierscoresftngame')) then writeln('No score saved yet.')
+if not(FileExists('scores_15puzzle.txt')) then writeln('No score saved yet.')
 	else
 	begin	
-	assign(classement, 'fichierscoresftngame');
+	assign(classement, 'scores_15puzzle.txt');
 	reset(classement);
 	Read(classement, tabscore);
 	l:=2;
@@ -167,14 +167,14 @@ if not(FileExists('fichierscoresftngame')) then writeln('No score saved yet.')
 	end;
 	writeln('');
 	writeln('Menu        [ ]');
-	if FileExists('fichierscoresftngame') then writeln('Reset score [ ]');
+	if FileExists('scores_15puzzle.txt') then writeln('Reset score [ ]');
 	writeln('Exit        [ ]');
 	writeln('');
 	writeln('Press SPACEBAR to select.');
 	pos:=wherey;
-	if FileExists('fichierscoresftngame') then gotoxy(14,wherey-5) else gotoxy(14,wherey-4);
+	if FileExists('scores_15puzzle.txt') then gotoxy(14,wherey-5) else gotoxy(14,wherey-4);
 	InitKeyBoard();
-	if FileExists('fichierscoresftngame') then n:=1 else n:=0;
+	if FileExists('scores_15puzzle.txt') then n:=1 else n:=0;
 	
 	repeat
 		K:=GetKeyEvent();
@@ -185,9 +185,9 @@ if not(FileExists('fichierscoresftngame')) then writeln('No score saved yet.')
 	until KeyEventToString(K) = ' ';
 	
 	DoneKeyBoard();
-	if (c=pos-4) and (FileExists('fichierscoresftngame')) then
+	if (c=pos-4) and (FileExists('scores_15puzzle.txt')) then
 		begin
-		assign(classement, 'fichierscoresftngame');
+		assign(classement, 'scores_15puzzle.txt');
 		rewrite(classement);
 		for i:=1 to MAXSS do
 			for j:=minlvl to maxlvl do
