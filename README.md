@@ -1,26 +1,26 @@
 # 🔢 15 Puzzle
-15 Puzzle (or 15 game) coded in Pascal by Luc PREVOST.
+15 Puzzle (or 15 game or taquin) coded in Pascal by Luc PREVOST.
 
-![snake_play](https://user-images.githubusercontent.com/52052772/141104260-b8f67b21-0dbb-449d-9ad5-0b7d5116273c.png)
+![15game_game](https://user-images.githubusercontent.com/52052772/141159551-9ad9ea5b-9dda-45c1-a37c-b93121937d17.png)
 
 📃 INSTRUCTIONS
 ============
 ## 🚀Execution
-Snake uses the folowing Pascal units:
+15 Puzzle uses the folowing Pascal units:
 - [Crt](https://wiki.freepascal.org/Crt)
 - [Dos](https://www.freepascal.org/docs-html/rtl/dos/index.html)
 - [Keyboard](https://www.freepascal.org/docs-html/rtl/keyboard/index.html)
 - [Sysutils](https://www.freepascal.org/docs-html/rtl/sysutils/index.html)
 
-To execute it, compile the "snake.pas" file and run it. After launching the program, a terminal windows pops up.
+To execute it, palce "taquinmain.pas", "taquinoutils.pas", "taquinIHM.pas", and "taquincalc.pas" in the same folder. Compile the "taquinmain.pas" file and run it. After launching the program, a terminal windows pops up.
 
 ## ⚙️Menu
-![snake_menu](https://user-images.githubusercontent.com/52052772/141106612-e06bef9a-58d9-4ce5-b823-2e0de5b141e7.png)
+![15game_menu](https://user-images.githubusercontent.com/52052772/141158131-814697e8-61f0-4931-9e86-b2170d9c243d.png)
 
 Everything happens in the terminal. Select the option you want using ↑ and ↓ arrows (or '8' and '2' keys if the VERR NUM buton is desactivated), then press SPACE BAR to validate. Any other key won't do anything.
 
 ## 📏 Rules
-![snake_rules](https://user-images.githubusercontent.com/52052772/141109745-06cf3edf-71a6-4b50-b5e3-e2e59b17b1b4.png)
+![15game_rules](https://user-images.githubusercontent.com/52052772/141159856-64e6405d-14bb-4024-a3de-4eba21ff994a.png)
 
 ## 🎮 Game
 ![snake_game](https://user-images.githubusercontent.com/52052772/141110565-0b0d42c4-b4dc-48de-970d-0288d5c5246d.png)
