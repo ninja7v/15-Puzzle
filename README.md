@@ -25,8 +25,7 @@ Everything happens in the terminal. Select the option you want using ↑ and ↓
 ## 🎮 Game
 ![snake_game](https://user-images.githubusercontent.com/52052772/141110565-0b0d42c4-b4dc-48de-970d-0288d5c5246d.png)
 
-The first step is choosing the level. The higher it is, the higher the number of wall. Theses last are represented in red and are placed randomly on the map and are fixed. The second step is chooosing the color of the snake. The 2 options are White and blue. Finaly, commands to play are ↑, ↓, →, ← arrrows. Resizing the window may errase the grid. After loosing, the 2 options are comeback to the menu or exit the program.
-
+The first step is choosing the level. The higher it is, the larger the grid will be. Commands to play are ↑, ↓, →, ← arrrows to fill the void with a number next to it. If the score is among the top 3, the play will be asked to enter his pseudo to save it. Then the 3 choices are to play again by entering a level, come back to the menu, or exit the program.
 ## 🥇 Scores
 Scores are saved in the "score_15puzzle.txt" file. If this file doesn't exist, it is created. It is possible to rest scores in the score option.
 
@@ -34,4 +33,4 @@ Now it is your turn to break records !
 
 Thank you for playing my 15 Puzzle 🙂
 
-Just fix this mess !
+Just solve !
