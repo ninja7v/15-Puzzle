@@ -32,6 +32,6 @@ Scores are saved in the _score_15puzzle.txt_ file. If this file doesn't exist, i
 
 Now it is your turn to break records !
 
-Thank you for playing my 15 Puzzle 🙂
+Thank you for playing 15 Puzzle 🙂
 
 > Just solve !
